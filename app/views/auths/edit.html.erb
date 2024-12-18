@@ -1,0 +1,12 @@
+<% content_for :title, "Editing auth" %>
+
+<h1>Editing auth</h1>
+
+<%= render "form", auth: @auth %>
+
+<br>
+
+<div>
+  <%= link_to "Show this auth", @auth %> |
+  <%= link_to "Back to auths", auths_path %>
+</div>
